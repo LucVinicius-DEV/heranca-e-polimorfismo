@@ -106,7 +106,7 @@ Cada projeto, ao ser executado, demonstrará diferentes saídas no console:
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Lucas Vinícius com apoio da Luna durante os estudos práticos de Programação Orientada a Objetos em Java.
+Desenvolvido por Lucas Vinícius durante os estudos práticos de Programação Orientada a Objetos em Java.
 
 [LinkedIn](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/) | [GitHub](https://github.com/LucVinicius-DEV)
 
