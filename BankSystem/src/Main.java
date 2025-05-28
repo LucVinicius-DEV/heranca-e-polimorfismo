@@ -102,5 +102,32 @@ public class Main {
     System.out.println(x.getBalance());
     System.out.println(y.getBalance());
 
+    // CLASSES ABSTRATAS
+    // public abstract class
+
+    List<Account> list = new Arraylist<>();
+    // lista generica que pode instanciar tanto objetos SavingsAccount como Business Account
+
+    list.add(new SavingsAccount(1001, "Alex", 500.0, 0.01));
+    list.add(new BusinessAccount(1002, "Maria", 1000.0, 400.0));
+    list.add(new SavingsAccount(1004, "Bob", 300.0, 0.01));
+    list.add(new BusinessAccount(1005, "Anna", 500.0, 500.0));
+
+    // metodo para calcular saldo total nas contas
+    double sum = 0.0;
+      for (Account acc : list) {
+        sum += acc.getBalance();
+      }
+    // imprime o saldo total
+    System.out.printf("Total balance: %.2f%n", sum);
+    
+    // metodo para adicionar R$10 em cada conta
+    for (Account acc : list) {
+      acc.deposit(10.0);
+    }
+    // metodo para imprimir todas as contas acrescidos de R$10,00
+    for (Account acc : list) {
+      System.out.printf("Updated balance for account %d: %.2f%n", acc.getNumber(), acc.getBalance());
+    }
   }
 }
