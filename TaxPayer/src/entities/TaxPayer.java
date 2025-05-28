@@ -2,7 +2,7 @@ package entities;
 
 // classe abstrata TaxPayer
 
-public abstract TaxPayer {
+public abstract class TaxPayer {
 
   private String name;
   private Double anualIncome;
