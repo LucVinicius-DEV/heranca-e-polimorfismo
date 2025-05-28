@@ -1,6 +1,7 @@
 package entities;
 
-public class Account {
+// classe abstrata
+public abstract class Account { // abstract para nao permitir contas comuns, somente  poupanca e empresarial
 
   // ATRIBUTOS
   private Integer number;
