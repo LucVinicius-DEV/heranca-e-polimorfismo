@@ -1,6 +1,6 @@
 ![Banner](https://github.com/LucVinicius-DEV/heranca-e-polimorfismo/blob/main/banner.png?raw=true)
 
-# 📚 Repositório de Projetos com Herança e Polimorfismo em Java
+# 📚 Projetos com Herança e Polimorfismo em Java
 
 Bem-vindo! Este repositório é uma coleção de projetos desenvolvidos em Java com o objetivo de demonstrar e praticar os conceitos fundamentais da **Programação Orientada a Objetos (POO)**, com foco especial em **Herança** e **Polimorfismo**. Cada subpasta contém um projeto distinto que aborda diferentes cenários de aplicação desses conceitos.
 
