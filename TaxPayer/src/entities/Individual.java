@@ -32,8 +32,8 @@ public class Individual extends TaxPayer {
   public Double tax() {
     if (getAnualIncome() < 20000.0) { // se a renda anual for menor que 20000,00
       return getAnualIncome() * 0.15 - getHealthExpenditures() * 0.5; // entao a taxa de imposto é 15% da renda anual menos 50% das despesas medicas
-    } else { // se nao
-      return getAnualIncome() * 0.25 - getHealthExpenditures() * 0.5; // entao a taxa de imposto é 25% da renda anual menos 50% das despesas medicas
+    } else { // senao
+      return getAnualIncome() * 0.25 - getHealthExpenditures() * 0.5; // a taxa de imposto é 25% da renda anual menos 50% das despesas medicas
     }
   }
 
